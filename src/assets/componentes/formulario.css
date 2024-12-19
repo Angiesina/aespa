@@ -1,0 +1,44 @@
+/* estilo para el contenedor de registro */
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px;
+    max-width: 390px;
+    margin-left: 800px;
+    margin-bottom: 90px;
+    margin-top: 50px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    align-items: center;
+  }
+  
+  /* estilo para los campos de contraseña */
+  .contraseña input {
+    padding: 8px;
+    margin: 15px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border 0.3s ease;
+  }
+  
+  .contraseña input:focus {
+    border: 1px solid #6a4fff;
+    outline: none;
+  }
+  
+  /* estilo para el botón de envío */
+  .contraseña button {
+    padding: 12px 26px;
+    margin: 5px;
+    background-color: #6a4fff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }

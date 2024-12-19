@@ -1,0 +1,26 @@
+/* estilo general para el header */
+.header {
+    background-color: #282c34;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1005;
+  }
+  
+  .header-contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+/* estilo para el logo del header*/
+  .logo-link {
+    display: inline-block;
+    margin-bottom: 0px; 
+    text-align: left; 
+}
+.logo {
+    max-width: 175px;
+    height: auto;
+}

@@ -1,0 +1,26 @@
+/* estilo para la barrita de opciones */
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  /* estilo para el texto que redirige */
+  .nav-opciones {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    padding: 0;
+    margin: 10px;
+  }
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold; 
+    transition: color 0.2s ease;
+  }
+/* estilo para cuando se pone el mouse encima */
+  .nav-link:hover {
+    color: #dd60ff;
+  }
+  

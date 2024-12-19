@@ -1,0 +1,44 @@
+/* estilo general para el footer */
+.footer {
+    background-color: #282c34;
+    color: #B57EDC;
+    padding: 2rem 0;
+    box-shadow: 0 -4px 10px rgb(236, 204, 255);
+    text-align: center;
+    margin-top: 0; 
+    margin-bottom: 0;
+  }
+  .redes p{
+    color: #FFFFFF;
+  }
+  /* estilo para el texto en el footer */
+  .footer p {
+    margin-bottom: 0;
+    font-size: 1rem;
+    text-shadow: 0 0 5px #B57EDC;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* estilo para los redes sociales */
+  .redes {
+    display: flex;
+    justify-content: center; 
+    gap: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  /* estilo para los enlaces */
+  .link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: color 0.3s, text-shadow 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* estilo para los enlaces cuando se pasa el mouse */
+  .link:hover {
+    color: #c869ff;
+    text-shadow: 0 0 5px #ffffff;
+  }
